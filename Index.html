@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nosso cantinho</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- TOPO E MENU -->
+    <header>
+      <h1>Obrigado por ser minha parceira!!! ❤️</h1>
+      <nav>
+        <ul>
+          <li><a href="#euvoce">Eu e Você</a></li>
+          <li><a href="#viagem">Nossa Última Viagem</a></li>
+          <li><a href="#risadas">Nossas Risadas</a></li>
+          <li><a href="#estranhas">Fotos Estranhas</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="fotos-fixas">
+      <img src="Imagens/Leo_Kel3.jpg" alt="Foto 1" />
+      <img src="Imagens/Leo_Kel6.jpg"Foto 2" />
+      <img src="Imagens/Leo_Kel10.jpg" alt="Foto 3" />
+    </section>
+
+    <!-- FOTOS DESTACADAS -->
+    <section class="galeria">
+      <div id="euvoce" class="bloco">
+        <img src="Imagens/Leo_Kel5.jpg" alt="Eu e Você"/>
+        <p><strong>Eu e Você:</strong> Eu amo estar com você! Você desperta a melhor cersão de mim, e quando estou com você me sinto realizado! 💞</p>
+      </div>
+    
+      <div id="viagem" class="bloco">
+        <img src="Imagens/Viagem.jpg" alt="Nossa Última Viagem"/>
+        <p><strong>Nossa Última Viagem:</strong> Essa viagem pareceu um sonho, foi tudo perfeito! Acordae naquele lugar e estar ao seu lado me fez o homem mais feliz do mundo! ✈️</p>
+      </div>
+    
+      <div id="risadas" class="bloco">
+        <img src="Imagens/Leo_Kel7.jpg" alt="Nossas Risadas"/>
+        <p><strong>Nossas Risadas:</strong> Essa foto reflete nosso jeito "diferente" de ser, eu consigo ser quem eu sou ao seu lado! Essas fotos estranhas são as melhores...😂</p>
+      </div>
+    
+      <div id="estranhas
+
+    <!-- LINHA DO TEMPO -->
+    <section class="linha-do-tempo">
+      <h2>Nosso Caminho Juntos</h2>
+      <ul>
+        <li><strong>28/05/2016</strong>: O primeiro encontro, onde tudo começou. ✨</li>
+        <li><strong>**/**/****</strong>: Escreva aqui...</li>
+        <li><strong>09/07/2016</strong>: Nosso primeiro “eu te amo” 💘, adivinha quem falou primeiro?</li>
+        <li><strong>**/**/****</strong>: Escreva aqui...</li>
+        <li><strong>**/**/****</strong>: Escreva aqui...</li>
+        <li><strong>**/**/****</strong>: Escreva aqui...</li>
+        <li><strong>15/07/2018</strong>: Nossa primeira viagem juntos, destino: Porto de galinhas. 🛫</li>
+        <li><strong>18/04/2025</strong>: Nossa viagem, para o Rancho...</li>
+        <li><strong>**/**/****</strong>: Escreva aqui...</li>
+        <li><strong>**/**/****</strong>: Escreva aqui...</li>
+        <li><strong>**/**/****</strong>: Escreva aqui...</li>
+      </ul>
+    </section>
+
+    <!-- MÚSICA COM BOTÃO DE PLAY/PAUSE -->
+    <section class="musica">
+      <h2>Uma das nossas musicas favoritas...</h2>
+      <audio id="musica" loop>
+        <source src="Imagens/musica.mp3.mp3" type="audio/mpeg" />
+      </audio>
+      <button onclick="toggleMusic()">▶️ Tocar / Pausar</button>
+    </section>
+
+    <!-- CARTA EM PERGAMINHO -->
+    <section class="carta">
+      <h2>Para Kel, com muito Amor 💌</h2>
+      <textarea placeholder="Hoje completamos 9 anos juntos! Isso dá mais ou menos:
+
+      3.285 dias de namoro
+      
+      4.722 discussões kkkkkkkk
+            
+      Muitos e muitooooooos “eu te amo”
+      
+      E umas 25 tentativas de fazer dieta juntos que duraram... meia hora.
+      
+      Não é só tempo, é nossa história. Foram anos dividindo alegria e triste, saúde e doença, e varios momentos incriveis!!!
+      
+      Você me conhece até quando eu suspiro. Sabe quando estou com fome, quando quero peidar, ou com raiva (geralmente as três juntas). E mesmo assim você escolheu ficar.
+      
+      Obrigado por ser minha pessoa em cada bagunça, cada riso, cada silêncio... e por não me deixar sozinho independente do momento.
+      
+      Que venham mais 9, mas não como namorado. Quero ser seu noivo, seu marido e pra sempre seu companheiro!
+      
+      Te amo pra sempre, até quando a gente virar aqueles velhinhos, vamos brigar pelo banco preferencial e pegar fila no posto de saúde."></textarea>
+    </section>
+
+    <!-- WHATSAPP -->
+    <footer>
+      <a href="https://wa.me/11970671143" target="_blank" class="whatsapp-btn"
+        >💬 Fale Comigo no WhatsApp</a
+      >
+    </footer>
+
+    <script>
+      function toggleMusic() {
+        const musica = document.getElementById('musica')
+        musica.paused ? musica.play() : musica.pause()
+      }
+    </script>
+  </body>
+</html>
